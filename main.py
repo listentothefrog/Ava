@@ -8,6 +8,9 @@ import datetime
 # init packages
 r = sr.Recognizer()
 
+credential_path = "api_key.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
+
 # text to speech    
 def ava(audio_string):
     tts = gTTS(text=audio_string, lang="en", tld='ie')
@@ -21,7 +24,7 @@ def ava(audio_string):
 def wish():
     greeted = False
     hour = int(datetime.datetime.now().hour)
-    if hour > 0 and hour < 9:
+    if hour > 7 and hour < 8:
         greeted = False
         ava("Good Morning, Shashank did you have a great night sleep")
     else:
