@@ -1,9 +1,13 @@
+# libs 
 import speech_recognition as sr
 import os
+import datetime
 from gtts import gTTS
 import playsound
-from nlp import nlp
 import datetime
+# my files 
+from nlp import nlp
+
 
 # init packages
 r = sr.Recognizer()
@@ -26,7 +30,7 @@ def wish():
     hour = int(datetime.datetime.now().hour)
     if hour > 7 and hour < 8:
         greeted = False
-        ava("Good Morning, Shashank did you have a great night sleep")
+        ava("Good Morning, Shashank did you have a good night sleep")
     else:
         greeted = True
         pass
@@ -45,6 +49,7 @@ def get_audio():
 
         return voice_data
 
+    
 # calling these functions
 voice_data = get_audio()
 nlp(voice_data)
