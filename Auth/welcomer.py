@@ -22,11 +22,11 @@ def send_email():
 
 def login():
     needs_to_login = True
-    if needs_to_login:   
+    if needs_to_login == True:   
         print("Your security code has been sent to your inbox")
         send_email()
         user_input = input("Enter your code: ")
-        if user_input == security_code:
+        if int(user_input) == int(security_code):
             print("Valid Security Code")
             needs_to_login = False
         else:
