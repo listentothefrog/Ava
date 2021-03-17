@@ -7,7 +7,7 @@ import playsound
 import datetime
 # my files 
 from nlp import nlp
-
+from Auth.welcomer import *
 
 # init packages
 r = sr.Recognizer()
@@ -23,18 +23,6 @@ def ava(audio_string):
     playsound.playsound(file) 
     os.remove(file)
     
-# wish user good morning 
-
-def wish():
-    greeted = False
-    hour = int(datetime.datetime.now().hour)
-    if hour > 7 and hour < 8:
-        greeted = False
-        ava("Good Morning, Shashank did you have a good night sleep")
-    else:
-        greeted = True
-        pass
-wish()
 # speech recognition
 def get_audio():
     with sr.Microphone() as source:
@@ -51,6 +39,8 @@ def get_audio():
 
     
 # calling these functions
+login()
+ava("How can I help you?")
 voice_data = get_audio()
 nlp(voice_data)
 
