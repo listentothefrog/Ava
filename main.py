@@ -1,10 +1,8 @@
 # libs 
 import speech_recognition as sr
 import os
-import datetime
 from gtts import gTTS
 import playsound
-import datetime
 # my files 
 from nlp import nlp
 from Auth.welcomer import *
