@@ -3,6 +3,7 @@ import speech_recognition as sr
 import os
 from gtts import gTTS
 import playsound
+import time
 # my files 
 from nlp import nlp
 from Auth.welcomer import *
@@ -35,12 +36,13 @@ def get_audio():
 
         return voice_data
 
-    
+time.sleep(1)    
 # calling these functions
 login()
 ava("How can I help you?")
-voice_data = get_audio()
-nlp(voice_data)
+while 1: # runs this infinitely
+    voice_data = get_audio()
+    nlp(voice_data)
 
-# print what the user said 
-print(voice_data)
+    # print what the user said 
+    print(voice_data)
