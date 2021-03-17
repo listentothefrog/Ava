@@ -8,7 +8,7 @@ import datetime
 email = os.getenv("EMAIL")
 password = os.getenv("PASSWORD")
 
-security_code = random.randint(100, 100000)
+security_code = int(random.randint(100, 100000))
 
 def send_email():
     server=smtplib.SMTP('smtp.gmail.com',587)
@@ -22,22 +22,18 @@ def send_email():
     print("EMAIL HAS BEEN SENT!")
 
 def login():
-    hour = int(datetime.datetime.now().hour)
-    if hour > 0 and hour < 12: 
-        morning = "Good Morning"    
-    elif hour>=12 and hour<18:
-        afternoon = "Good Afternoon!"   
+    needs_to_login = True
+    if needs_to_login == True:   
+        print("Your security code has been sent to your inbox")
+        send_email()
+        user_input = input("Enter your code: ")
+        if int(user_input) == int(security_code):
+            print("Valid Security Code")
+            needs_to_login = False
+        else:
+            print("Invalid Security")
+            needs_to_login = True
+            login()
     else:
-        evening = "Good Evening!"
-    print("Your security code has been sent to your inbox")
-    send_email()
-    user_input = input("Enter your code: ")
-    if user_input == security_code:
-        print("Valid Security Code")
-    else:
-        print("Invalid Security")
-login()
-
-
-
+        needs_to_login = False
 
