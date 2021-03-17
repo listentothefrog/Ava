@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 import smtplib
-import datetime
 
 email = os.getenv("EMAIL")
 password = os.getenv("PASSWORD")
@@ -17,17 +16,17 @@ def send_email():
 
     subject = "Your verification code to login"
     body = "Hey this your verification code {}".format(security_code)
-    message = "Subject: {}".format(subject) + " \n\n {}".format(body)
+    message = f"Subject: {subject} \n\n {body}"
     server.sendmail(email,email, message)
     print("EMAIL HAS BEEN SENT!")
 
 def login():
     needs_to_login = True
-    if needs_to_login == True:   
+    if needs_to_login:   
         print("Your security code has been sent to your inbox")
         send_email()
         user_input = input("Enter your code: ")
-        if int(user_input) == int(security_code):
+        if user_input == security_code:
             print("Valid Security Code")
             needs_to_login = False
         else:
