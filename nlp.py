@@ -23,5 +23,4 @@ def nlp(text):
         print(u"Entity sentiment score: {}".format(sentiment.score))
         for metadata_name, metadata_value in entity.metadata.items():
             print(u"{} = {}".format(metadata_name, metadata_value))
-    print(u"Language of the text: {}".format(response.language))
 
