@@ -15,7 +15,7 @@ Here are how Ava works and the packages it uses,
  
 # Release History
 
-`Mark 1 realse notes` [https://github.com/shashanke7y/Ava/blob/mark-1/README.md]
+`Mark 1 realse notes` [https://github.com/shashanke7y/Ava/blob/mark-1/README.md]()
 
 # Contributing
 
@@ -33,7 +33,7 @@ I want to keep this repository open-source. I want people to contribute to this 
 ### If you have any questions, please my discord server https://discord.gg/GUmxzGPTDV. You can chat with other developers and ask for help.
 
 # Credits and references
-`Mark Zuckerburg's Ai` [https://m.facebook.com/nt/screen/?params=%7B%22note_id%22%3A775294156352065%7D&path=%2Fnotes%2Fnote%2F&refsrc=http%3A%2F%2Fwww.google.com%2F&_rdr]
+`Mark Zuckerburg's Ai` [https://m.facebook.com/nt/screen/?params=%7B%22note_id%22%3A775294156352065%7D&path=%2Fnotes%2Fnote%2F&refsrc=http%3A%2F%2Fwww.google.com%2F&_rdr]()
 
-`Jarvis Iron Man` [https://youtu.be/D156TfHpE1Q]
+`Jarvis Iron Man` [https://youtu.be/D156TfHpE1Q]()
 
