@@ -15,7 +15,7 @@ Here are how Ava works and the packages it uses,
  
 # Release History
 
-`Mark 1 realse notes` [https://github.com/shashanke7y/Ava/blob/mark-1/README.md]()
+`Mark 1 Release Notes` [https://github.com/shashanke7y/Ava/blob/mark-1/README.md]()
 
 # Contributing
 
