@@ -1,6 +1,6 @@
 # AVA Mark 1 Release Notes 
 
-## Welcome to the Mark 1 Update of Ava, these features are not that exciting but this is just the begging of AVA and there will be more updates along the way that are cool 😎. So lets make this quick. 
+### Welcome to the Mark 1 Update of Ava, these features are not that exciting but this is just the begging of AVA and there will be more updates along the way that are cool 😎. So lets make this quick. 
 
 ### Here are the updates that we are gonna cover 
 - `Authentication (Stable Build)` 
