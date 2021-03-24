@@ -4,7 +4,7 @@
 /__pycache__
 /.env
 ./nlp.pyc
-
+/Music/secrets.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
