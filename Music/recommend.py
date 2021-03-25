@@ -14,13 +14,13 @@ class RecommendMusic:
           "description": "A playlist with song recommends for Shashank to listen to",
             "public": False
         })
-        query = f"https://api.spotify.com/v1/users/{user_id}/playlists"
+        query = f"https://api.spotify.com/v1/users/{self.user_id}/playlists"
         res = requests.post(
           query,
           data=body,
           headers ={
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {bearer}"
+            "Authorization": f"Bearer {self.bearer}"
           }
         )
         response = res.json()
