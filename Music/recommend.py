@@ -2,6 +2,7 @@ import json
 import requests
 import datetime
 from secrets import user_id, bearer
+import time
 class RecommendMusic:
   def __init__(self):
     self.user_id = user_id
@@ -33,6 +34,7 @@ class RecommendMusic:
           rc.create_playlist()
     else:
           print("Not the time to do it...")
+    time.sleep(2700)
 
 rc = RecommendMusic()
 rc.recommend_music()
