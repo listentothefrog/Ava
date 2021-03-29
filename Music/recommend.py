@@ -24,7 +24,7 @@ class RecommendMusic:
             print(f"{i['name']} by {i['artists'][0]['name']}") 
   def time_check(self):
     hour = int(datetime.datetime.now().hour)
-    if hour >= 21 and hour <= 22:
+    if hour >= 7 and hour <= 8:
           print("I have created a playlist with song recommends for Shashank to listen to")
           rc.get_recommended_music()
     else:
