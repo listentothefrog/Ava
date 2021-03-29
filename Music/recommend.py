@@ -58,5 +58,6 @@ class RecommendMusic:
           print("Not the time to do it...")
     time.sleep(2700)
 
-rc = RecommendMusic()
-rc.time_check()
+if __name__ == "__main__": 
+  rc = RecommendMusic()
+  rc.time_check()
