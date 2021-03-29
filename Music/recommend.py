@@ -3,7 +3,7 @@ from secrets import bearer
 import time
 import requests
 from endpoints import end_point_url, limit, market,  seed_artists, seed_genres, seed_tracks
-from pprint import pprint
+
 class RecommendMusic:
   def __init__(self):
     self.end_point_url = end_point_url
@@ -20,7 +20,8 @@ class RecommendMusic:
                headers={"Content-Type":"application/json", 
                         "Authorization":f"Bearer {self.bearer}"})
       res = response.json()
-      pprint(res) 
+      for i in res['tracks']:
+            print(f"{i['name']} by {i['artists'][0]['name']}") 
   def time_check(self):
     hour = int(datetime.datetime.now().hour)
     if hour >= 21 and hour <= 22:
