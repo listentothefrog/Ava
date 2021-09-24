@@ -1,5 +1,7 @@
 # Ava 
 
+> Important notice the project is dead because my gcp credits expired :(
+
 Ava stands for Advanced Voice Assitant. Her mission in life is simple it is to help me with my daily tasks. Currently, she is running on my computer and only responds to my voice and the voice of my parents. She is still in production mode there will updates that will come along the way.
 
 # Packages and abilities 
