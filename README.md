@@ -32,8 +32,6 @@ I want to keep this repository open-source. I want people to contribute to this 
 * Create a new Pull Request
 
 
-### If you have any questions, please my discord server https://discord.gg/GUmxzGPTDV. You can chat with other developers and ask for help.
-
 # Credits and references
 `Mark Zuckerburg's Ai` [https://m.facebook.com/nt/screen/?params=%7B%22note_id%22%3A775294156352065%7D&path=%2Fnotes%2Fnote%2F&refsrc=http%3A%2F%2Fwww.google.com%2F&_rdr]()
 
