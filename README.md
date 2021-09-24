@@ -32,8 +32,7 @@ I want to keep this repository open-source. I want people to contribute to this 
 * Create a new Pull Request
 
 
-# Credits and references
-`Mark Zuckerburg's Ai` [https://m.facebook.com/nt/screen/?params=%7B%22note_id%22%3A775294156352065%7D&path=%2Fnotes%2Fnote%2F&refsrc=http%3A%2F%2Fwww.google.com%2F&_rdr]()
+# References
+[Mark Zuckerburg's Ai](https://m.facebook.com/nt/screen/?params=%7B%22note_id%22%3A775294156352065%7D&path=%2Fnotes%2Fnote%2F&refsrc=http%3A%2F%2Fwww.google.com%2F&_rdr)
 
-`Jarvis Iron Man` [https://youtu.be/D156TfHpE1Q]()
-
+[Jarvis Iron Man](https://youtu.be/D156TfHpE1Q)
